@@ -1,5 +1,6 @@
 package leetcodeMedium;
-
+//#153 keep in mind the comparison should always be between
+//the num at mid position versus the num at the end of array
 public class FindMinimumInRotatedSortedArray {
 	public int findMin(int[] nums) {
 		if (nums == null || nums.length == 0) return -1;
