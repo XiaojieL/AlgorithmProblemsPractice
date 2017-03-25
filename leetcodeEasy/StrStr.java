@@ -1,5 +1,5 @@
 package leetcodeEasy;
-
+//#28
 public class StrStr {
 	public int strStr(String hayStack, String needle) {
 		if (needle.length() > hayStack.length() || 
